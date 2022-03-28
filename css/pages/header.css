@@ -1,0 +1,59 @@
+.header{
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+.header-left{
+  width: 50%;
+}
+
+.logo{
+  font-family: Roboto-regular;
+  font-size: 36px;
+  color: var(--logo-color);
+}
+.logo-img {
+  width: 22px;
+  height: 26px;
+  margin: 76px 0px 0px 90px;
+}
+.logo-text {
+  margin: 66px 0 0 0px;
+}
+
+.header-right{
+  width: 50%;
+  display: flex;
+  font-size: 20px;
+  color: var(--main-color);
+  font-family: Roboto-regular;
+  align-items: center;
+  gap: 40px;
+}
+.header-right img{
+  padding-right: 7px;
+}
+.span-radio{
+  margin-left: 420px;
+}
+
+.button button{
+  width: 118px;
+  height: 41px;
+  border-radius: 8px;
+  color: var(--person-color);
+  font-family: Roboto-regular;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.radio-img2{
+  position: absolute;
+  top: 92px;
+  left: 1420.5px;
+}
+.radio-img{
+  position: absolute;
+  top: 89.5px;
+  left: 1416.3px;
+}
