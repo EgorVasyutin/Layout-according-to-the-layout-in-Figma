@@ -1,0 +1,154 @@
+/* header */
+@import url(variable/variable-home.css);
+@font-face {
+  font-family: Roboto-regular;
+  src: url(text/Roboto/Roboto-Regular.ttf);
+  font-family: Roboto-bold;
+  src: url(text/Roboto/Roboto-Bold.ttf);
+  font-family: Roboto-light;
+  src: url(text/Roboto/Roboto-Light.ttf);
+} 
+*{
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+body{
+  background-color: var(--backgraund-color);
+}
+.header{
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+.header-left{
+  width: 50%;
+}
+
+.logo{
+  font-family: Roboto-regular;
+  font-size: 36px;
+  color: var(--logo-color);
+}
+.haeder-logo-apple {
+  width: 22px;
+  height: 26px;
+  margin: 76px 0px 0px 90px;
+}
+.haeder-logo-text {
+  margin: 66px 0 0 0px;
+}
+
+
+.header-right{
+  width: 50%;
+  display: flex;
+  font-size: 20px;
+  color: var(--main-color);
+  font-family: Roboto-regular;
+  align-items: center;
+  gap: 40px;
+}
+.header-right img{
+  padding-right: 7px;
+}
+.span-radio{
+  margin-left: 420px;
+}
+
+
+
+.button button{
+  width: 118px;
+  height: 41px;
+  border-radius: 8px;
+  color: var(--person-color);
+  font-family: Roboto-regular;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.radio-img2{
+  position: absolute;
+  top: 92px;
+  left: 1420.5px;
+}
+.radio-img{
+  position: absolute;
+  top: 89.5px;
+  left: 1416.3px;
+}
+/* header */
+
+/* main */
+.main {
+  color: var(--main-color);
+  position: relative;
+}
+.maim-text {
+  font-family: Roboto-bold;
+  margin: 150px 0 0 90px;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 2px
+}
+.main-text-description {
+  font-family: Roboto-light;
+  margin: 17px 0 0 95px;
+  font-size: 30px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+
+}
+.main-button {
+  width: 195px;
+  height: 53px;
+  background-color: var(--input-color);
+  border-radius: 8px;
+  margin: 37px 0 0 95px;
+  cursor: pointer;
+}
+.main-span-button-text{
+  font-size: 22px;
+  color: var(--main-color);
+  line-height: 28px;
+}
+.headphones{
+  position: absolute;
+  top: -139px;
+  left: 856px;
+  width: 895px;
+  height: 597px;
+}
+/* main */
+
+/* footer */
+.footer{
+  height:  300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  
+}
+.footer-text{
+  margin-bottom: 78px;
+  font-size: 22px;
+  font-family: Roboto-light;
+  color: var(--text-color);
+  
+}
+.footer-img-music {
+  margin-bottom: 83px; 
+  margin-right: 18px;
+}
+.footer-img-arrow {
+  margin-bottom: 84px;
+  margin-left: 5px;
+}
+
+.footer-img-music2 {
+  position: absolute;
+  bottom: 76px;
+  left: 920px;
+}
