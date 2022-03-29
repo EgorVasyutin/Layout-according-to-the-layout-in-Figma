@@ -33,7 +33,7 @@
 .header-right img{
   padding-right: 7px;
 }
-.span-radio{
+.radio{
   margin-left: 420px;
 }
 
@@ -47,13 +47,3 @@
   cursor: pointer;
 }
 
-.radio-img2{
-  position: absolute;
-  top: 92px;
-  left: 1420.5px;
-}
-.radio-img{
-  position: absolute;
-  top: 89.5px;
-  left: 1416.3px;
-}

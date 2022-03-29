@@ -2,6 +2,7 @@
 @import url(variable/variable-home.css);
 @import url(default-styles.css);
 @import url(pages/header.css);
+@import url(pages/footer.css);
 @font-face {
   font-family: Roboto-regular;
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
@@ -53,34 +54,4 @@ body{
   left: 856px;
   width: 895px;
   height: 597px;
-}
-
-.footer{
-  height:  300px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  position: relative;
-  
-}
-.footer-text{
-  margin-bottom: 78px;
-  font-size: 22px;
-  font-family: Roboto-light;
-  color: var(--text-color);
-  
-}
-.img-music {
-  margin-bottom: 83px; 
-  margin-right: 18px;
-}
-.img-arrow {
-  margin-bottom: 84px;
-  margin-left: 5px;
-}
-
-.img-music2 {
-  position: absolute;
-  bottom: 76px;
-  left: 920px;
 }
