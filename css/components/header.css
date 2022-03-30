@@ -3,7 +3,7 @@
   width: 100%;
   height: 200px;
 }
-.header-left{
+.header__left{
   width: 50%;
 }
 
@@ -12,16 +12,16 @@
   font-size: 36px;
   color: var(--logo-color);
 }
-.logo-img {
+.logo__img {
   width: 22px;
   height: 26px;
   margin: 76px 0px 0px 90px;
 }
-.logo-text {
+.logo__text {
   margin: 66px 0 0 0px;
 }
 
-.header-right{
+.header__right{
   width: 50%;
   display: flex;
   font-size: 20px;
@@ -30,14 +30,14 @@
   align-items: center;
   gap: 40px;
 }
-.header-right img{
+.header__right img{
   padding-right: 7px;
 }
-.radio{
+.header__right--radio{
   margin-left: 420px;
 }
 
-.button button{
+.header__right--button button{
   width: 118px;
   height: 41px;
   border-radius: 8px;
