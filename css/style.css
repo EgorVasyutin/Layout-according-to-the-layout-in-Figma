@@ -1,8 +1,8 @@
 
-@import url(variable/variable-home.css);
+@import url(variables.css);
 @import url(default-styles.css);
-@import url(pages/header.css);
-@import url(pages/footer.css);
+@import url(components/header.css);
+@import url(components/footer.css);
 @font-face {
   font-family: Roboto-regular;
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
