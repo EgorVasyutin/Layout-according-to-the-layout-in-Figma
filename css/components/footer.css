@@ -1,24 +1,25 @@
-.footer{
-  height:  300px;
+.footer {
+  height: 300px;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+ justify-content: center;
   position: relative;
-  
 }
-.footer__text{
+
+.footer__text {
   margin-bottom: 78px;
   font-size: 22px;
   font-family: Roboto-light;
-  color: var(--text-color);
-  
+  color: #8C8B8F;
 }
+
 .footer__img--music {
-  margin-bottom: 78px; 
+  margin-bottom: 78px;
   margin-right: 8px;
 }
+
 .footer__img--arrow {
   margin-bottom: 84px;
   margin-left: 5px;
 }
-
+/*# sourceMappingURL=footer.css.map */

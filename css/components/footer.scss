@@ -1,0 +1,24 @@
+@import "../variables";
+.footer{
+  height:  300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  &__text{
+    margin-bottom: 78px;
+    font-size: 22px;
+    font-family: Roboto-light;
+    color: $text-color;
+  }
+  &__img--music {
+    margin-bottom: 78px; 
+    margin-right: 8px;
+  }
+  &__img--arrow {
+    margin-bottom: 84px;
+    margin-left: 5px;
+  }
+}
+
+

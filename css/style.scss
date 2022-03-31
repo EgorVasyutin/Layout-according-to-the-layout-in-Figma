@@ -1,0 +1,58 @@
+
+@import "variables";
+@import "default-styles";
+@import "components/header";
+@import "components/footer";
+@font-face {
+  font-family: Roboto-regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-family: Roboto-bold;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-family: Roboto-light;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+} 
+
+body{
+  background-color: $backgraund-color;
+}
+
+.main {
+  color: $main-color;
+  position: relative;
+    &__text {
+    font-family: Roboto-bold;
+    margin: 150px 0 0 90px;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2px
+  }
+  &__description {
+    font-family: Roboto-light;
+    margin: 17px 0 0 95px;
+    font-size: 30px;
+    color: $text-color;
+    letter-spacing: 1px;
+  }
+  .main-button {
+    width: 195px;
+    height: 53px;
+    background-color: $input-color;
+    border-radius: 8px;
+    margin: 37px 0 0 95px;
+    cursor: pointer;
+     &__text{                              /*вопрос*/
+    font-size: 22px;
+    color: $main-color;
+    line-height: 28px;
+  }
+ 
+  }
+}
+
+.headphones{
+  position: absolute;
+  top: -139px;
+  left: 856px;
+  width: 895px;
+  height: 597px;
+}
