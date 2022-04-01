@@ -1,8 +1,14 @@
 .footer {
   height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
- justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 
@@ -10,7 +16,7 @@
   margin-bottom: 78px;
   font-size: 22px;
   font-family: Roboto-light;
-  color: #8C8B8F;
+  color: #8c8b8f;
 }
 
 .footer__img--music {

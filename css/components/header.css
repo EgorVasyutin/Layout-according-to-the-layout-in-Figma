@@ -1,50 +1,65 @@
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__left {
-  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
+  padding-left: 90px;
   font-family: Roboto-regular;
   font-size: 36px;
-  color: #FCFCFC;
+  color: #fcfcfc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo__img {
   width: 22px;
   height: 26px;
-  padding: 76px 0px 0px 90px;
-}
-
-.logo__text {
-  padding: 66px 0 0 0px;
 }
 
 .header__right {
-  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Roboto-regular;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   gap: 40px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
-.header__right img {
-  padding-right: 7px;
+.radio {
+  padding-left: 420px;
 }
 
-.header__right--radio {
-  margin-left: 420px;
-}
-
-.header__right--button button {
+.header__right-button button {
   width: 118px;
   height: 41px;
   border-radius: 8px;
@@ -52,5 +67,6 @@
   font-family: Roboto-regular;
   font-size: 20px;
   cursor: pointer;
+  margin-right: 90px;
 }
 /*# sourceMappingURL=header.css.map */
