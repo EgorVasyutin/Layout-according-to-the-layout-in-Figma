@@ -1,22 +1,31 @@
 @import "../variables";
 .footer {
-  height: 300px;
+  height: 200px;
+  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  position: relative;
-  &__text {
-    margin-bottom: 78px;
-    font-size: 22px;
-    font-family: Roboto-light;
-    color: $text-color;
-  }
-  &__img--music {
-    margin-bottom: 78px;
-    margin-right: 8px;
-  }
-  &__img--arrow {
-    margin-bottom: 84px;
-    margin-left: 5px;
-  }
+  width: 100%;
 }
+.conteiner-footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+
+   &__text {
+     font-size: 22px;
+     font-family: Roboto-light;
+     color: $text-color;
+   }
+
+   &__img-music {
+     margin-right: 8px;
+   }
+
+   &__img-arrow {
+     margin-left: 5px;
+   }
+ }
+

@@ -18,6 +18,17 @@ body {
 .main {
   color: $main-color;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+
+.conteiner-main{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+
   &__text {
     font-family: Roboto-bold;
     margin: 150px 0 0 90px;
@@ -40,7 +51,6 @@ body {
     margin: 37px 0 0 95px;
     cursor: pointer;
     &__text {
-      /*вопрос*/
       font-size: 22px;
       color: $main-color;
       line-height: 28px;
@@ -48,10 +58,4 @@ body {
   }
 }
 
-.headphones {
-  position: absolute;
-  top: -139px;
-  left: 856px;
-  width: 895px;
-  height: 597px;
-}
+

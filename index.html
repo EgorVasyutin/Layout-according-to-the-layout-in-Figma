@@ -9,53 +9,64 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__left">
-        <div class="logo">
-          <img src="img/apple.svg" alt="apple" class="logo__img" />
-          <span class="logo__text">Music</span>
+      <div class="conteiner">
+        <div class="header__left">
+          <div class="logo">
+            <img src="img/apple.svg" alt="apple" class="logo__img" />
+            <span class="logo__text">Music</span>
+          </div>
+        </div>
+        <div class="header__right">
+          <nav class="menu">
+            <div class="nav__icon radio">
+              <img src="img/radio.svg" alt="radio" />
+              <span class="radio__span-radio">Radio</span>
+            </div>
+            <div class="nav__icon browse">
+              <img src="img/browse.svg" alt="browse" />
+              <span class="browse__span-browse">Browse</span>
+            </div>
+            <div class="nav__icon play">
+              <img src="img/play.svg" alt="play" />
+              <span class="play__span-play">Listen Now</span>
+            </div>
+          </nav>
+
+          <div class="header__right-button">
+            <button>Sing in</button>
+          </div>
         </div>
       </div>
-      <div class="header__right">
-        <div class="header__right--icon radio">
-          <img src="img/radio.svg" alt="radio" />
-          <span class="radio__span-radio">Radio</span>
-        </div>
-        <div class="header__right--icon browse">
-          <img src="img/browse.svg" alt="browse" />
-          <span class="browse__span-browse">Browse</span>
-        </div>
-        <div class="header__right--icon play">
-          <img src="img/play.svg" alt="play" />
-          <span class="play__span-play">Listen Now</span>
-        </div>
-        <div class="header__right-button">
-          <button>Sing in</button>
-        </div>
-      </div>
+
     </header>
 
     <div class="main">
-      <h1 class="main__text">
-        Get 75 million songs<br />
-        free for 1 month.
-      </h1>
-      <div class="main__description">
-        Plus your entire music library on all your<br />
-        devices. 1 month free, then $ 1/month.
+      <div class="conteiner-main">
+        <h1 class="conteiner-main__text">
+          Get 75 million songs<br />
+          free for 1 month.
+        </h1>
+        <div class="conteiner-main__description">
+          Plus your entire music library on all your<br />
+          devices. 1 month free, then $ 1/month.
+        </div>
+        <button class="conteiner-main__button main-button">
+          <span class="main-button__text">Try it Free</span>
+        </button>
       </div>
-      <button class="main__button main-button">
-        <span class="main-button__text">Try it Free</span>
-      </button>
       <div class="headphones">
         <img src="img/headphones.png" alt="headphones" />
       </div>
-    </div>
+      </div>
+
 
     <footer class="footer">
-      <img src="img/music.svg" alt="music" class="footer__img--music" />
+      <div class="conteiner-footer">
+        <img src="img/music.svg" alt="music" class="conteiner-footer__img-music" />
 
-      <span class="footer__text">Open in Music</span>
-      <img src="img/Arrow.svg" alt="arrow" class="footer__img--arrow" />
+        <span class="conteiner-footer__text">Open in Music</span>
+        <img src="img/Arrow.svg" alt="arrow" class="conteiner-footer__img-arrow" />
+      </div>
     </footer>
   </body>
 </html>

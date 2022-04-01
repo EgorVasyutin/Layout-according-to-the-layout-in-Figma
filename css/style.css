@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -6,68 +5,54 @@
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100vw;
   height: 200px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
-.header__left {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.conteiner {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 90px;
 }
-
-.logo {
-  padding-left: 90px;
+.conteiner .header__left {
+  display: flex;
+  align-items: center;
+}
+.conteiner .header__left .logo {
   font-family: Roboto-regular;
   font-size: 36px;
   color: #fcfcfc;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
-.logo__img {
+.conteiner .header__left .logo__img {
   width: 22px;
   height: 26px;
 }
-
-.header__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.conteiner .header__right {
+  display: flex;
+  width: 100%;
+  font-family: Roboto-regular;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+.conteiner .header__right .menu {
   display: flex;
   width: 100%;
   font-size: 20px;
   color: #ffffff;
   font-family: Roboto-regular;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  align-items: center;
+  justify-content: end;
   gap: 40px;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  position: relative;
+  flex-wrap: nowrap;
 }
-
-.radio {
-  padding-left: 420px;
-}
-
-.header__right-button button {
+.conteiner .header__right .header__right-button button {
   width: 118px;
   height: 41px;
   border-radius: 8px;
@@ -75,37 +60,33 @@
   font-family: Roboto-regular;
   font-size: 20px;
   cursor: pointer;
-  margin-right: 90px;
 }
 
 .footer {
-  height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 200px;
   position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
 }
 
-.footer__text {
-  margin-bottom: 78px;
+.conteiner-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.conteiner-footer__text {
   font-size: 22px;
   font-family: Roboto-light;
   color: #8c8b8f;
 }
-
-.footer__img--music {
-  margin-bottom: 78px;
+.conteiner-footer__img-music {
   margin-right: 8px;
 }
-
-.footer__img--arrow {
-  margin-bottom: 84px;
+.conteiner-footer__img-arrow {
   margin-left: 5px;
 }
 
@@ -117,7 +98,6 @@
   font-family: Roboto-light;
   src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
-
 body {
   background-color: #211d27;
 }
@@ -125,25 +105,32 @@ body {
 .main {
   color: #ffffff;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
 }
 
-.main__text {
+.conteiner-main {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.conteiner-main__text {
   font-family: Roboto-bold;
   margin: 150px 0 0 90px;
   font-size: 64px;
   line-height: 70px;
   letter-spacing: 2px;
 }
-
-.main__description {
+.conteiner-main__description {
   font-family: Roboto-light;
   margin: 17px 0 0 95px;
   font-size: 30px;
   color: #8c8b8f;
   letter-spacing: 1px;
 }
-
-.main .main-button {
+.conteiner-main .main-button {
   width: 195px;
   height: 53px;
   background-color: #e6444f;
@@ -151,19 +138,10 @@ body {
   margin: 37px 0 0 95px;
   cursor: pointer;
 }
-
-.main .main-button__text {
-  /*вопрос*/
+.conteiner-main .main-button__text {
   font-size: 22px;
   color: #ffffff;
   line-height: 28px;
 }
 
-.headphones {
-  position: absolute;
-  top: -139px;
-  left: 856px;
-  width: 895px;
-  height: 597px;
-}
 /*# sourceMappingURL=style.css.map */
